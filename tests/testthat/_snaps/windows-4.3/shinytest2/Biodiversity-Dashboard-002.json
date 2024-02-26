@@ -1,0 +1,984 @@
+{
+  "input": {
+    "bioLeafMap_bounds": {
+      "north": 56.68037378950137,
+      "east": 26.8505859375,
+      "south": 49.29647160265809,
+      "west": 5.119628906250001
+    },
+    "bioLeafMap_center": {
+      "lng": 15.985107421875,
+      "lat": 53.14677033085084
+    },
+    "bioLeafMap_click": [
+      52.7728625816634,
+      23.5145045513151,
+      0.212350134189162
+    ],
+    "bioLeafMap_marker_click": [
+      0.0146935417518235,
+      52.8019830605053,
+      23.8282299041748
+    ],
+    "bioLeafMap_marker_mouseout": [
+      0.651956259756587,
+      52.8019830605053,
+      23.8282299041748
+    ],
+    "bioLeafMap_marker_mouseover": [
+      0.852262101561182,
+      52.8019830605053,
+      23.8282299041748
+    ],
+    "bioLeafMap_zoom": 6,
+    "dark_mode": false,
+    "filterData": "vernacularName",
+    "filterSpecies": "Wolf",
+    "navmenu": "Tab1",
+    "timeline_data": {
+      "start": [
+        "2015-02-02T18:30:00.000Z",
+        "2009-07-27T18:30:00.000Z",
+        "2011-07-26T18:30:00.000Z",
+        "2011-07-26T18:30:00.000Z",
+        "2011-07-26T18:30:00.000Z",
+        "2011-07-26T18:30:00.000Z",
+        "2011-06-07T18:30:00.000Z",
+        "2009-07-27T18:30:00.000Z",
+        "2010-05-06T18:30:00.000Z",
+        "2010-07-25T18:30:00.000Z",
+        "2017-06-29T18:30:00.000Z",
+        "2017-06-29T18:30:00.000Z",
+        "2016-07-26T18:30:00.000Z",
+        "2019-05-07T18:30:00.000Z",
+        "2019-05-07T18:30:00.000Z",
+        "2019-05-07T18:30:00.000Z",
+        "2019-05-06T18:30:00.000Z",
+        "2019-04-14T18:30:00.000Z",
+        "2019-04-13T18:30:00.000Z",
+        "2014-05-22T18:30:00.000Z",
+        "2010-05-01T18:30:00.000Z",
+        "2008-04-26T18:30:00.000Z",
+        "2009-07-27T18:30:00.000Z",
+        "2008-04-26T18:30:00.000Z",
+        "2009-05-10T18:30:00.000Z",
+        "2009-07-27T18:30:00.000Z",
+        "2008-11-15T18:30:00.000Z",
+        "2008-11-15T18:30:00.000Z",
+        "2017-02-09T18:30:00.000Z",
+        "2017-01-04T18:30:00.000Z",
+        "2015-05-06T18:30:00.000Z",
+        "2016-05-15T18:30:00.000Z",
+        "2016-07-26T18:30:00.000Z",
+        "2016-07-26T18:30:00.000Z",
+        "2016-07-26T18:30:00.000Z",
+        "2018-08-29T18:30:00.000Z",
+        "2018-08-29T18:30:00.000Z",
+        "2013-07-17T18:30:00.000Z",
+        "2016-03-30T18:30:00.000Z",
+        "2016-03-31T18:30:00.000Z",
+        "2016-03-31T18:30:00.000Z",
+        "2016-03-26T18:30:00.000Z",
+        "2018-07-30T18:30:00.000Z",
+        "2018-06-08T18:30:00.000Z",
+        "2018-06-07T18:30:00.000Z",
+        "2018-06-07T18:30:00.000Z",
+        "2018-05-25T18:30:00.000Z",
+        "2018-05-28T18:30:00.000Z",
+        "2018-05-07T18:30:00.000Z",
+        "2018-05-07T18:30:00.000Z",
+        "2018-05-09T18:30:00.000Z",
+        "2018-05-04T18:30:00.000Z",
+        "2018-05-08T18:30:00.000Z",
+        "2012-07-13T18:30:00.000Z",
+        "2012-07-13T18:30:00.000Z",
+        "2012-05-19T18:30:00.000Z",
+        "2012-03-07T18:30:00.000Z",
+        "2019-08-08T18:30:00.000Z",
+        "2019-05-21T18:30:00.000Z",
+        "2019-07-22T18:30:00.000Z",
+        "2019-07-20T18:30:00.000Z",
+        "2019-07-22T18:30:00.000Z",
+        "2019-07-18T18:30:00.000Z",
+        "2015-05-12T18:30:00.000Z",
+        "2015-05-12T18:30:00.000Z",
+        "2015-05-06T18:30:00.000Z"
+      ],
+      "content": [
+        "OBS.97880803",
+        "OBS.95580943",
+        "OBS.55964963",
+        "OBS.55935115",
+        "OBS.55922089",
+        "OBS.55914052",
+        "OBS.55085647",
+        "OBS.51962942",
+        "OBS.49546375",
+        "OBS.49257753",
+        "OBS.141009868",
+        "OBS.141009849",
+        "OBS.138650754",
+        "OBS.171982108",
+        "OBS.171945310",
+        "OBS.171912315",
+        "OBS.171809565",
+        "OBS.171450860",
+        "OBS.171450730",
+        "OBS.84927467",
+        "OBS.47721816",
+        "OBS.45990941",
+        "OBS.45831655",
+        "OBS.45783592",
+        "OBS.44457668",
+        "OBS.44202130",
+        "OBS.41047951",
+        "OBS.41047924",
+        "OBS.134523873",
+        "OBS.133398405",
+        "OBS.126674915",
+        "OBS.126582235",
+        "OBS.122344924",
+        "OBS.122086332",
+        "OBS.122027969",
+        "OBS.162059571",
+        "OBS.161937539",
+        "OBS.182093609",
+        "OBS.116351531",
+        "OBS.116351440",
+        "OBS.116351439",
+        "OBS.116348966",
+        "OBS.160767546",
+        "OBS.158329025",
+        "OBS.158216578",
+        "OBS.158085756",
+        "OBS.158068882",
+        "OBS.157714884",
+        "OBS.156866326",
+        "OBS.156866319",
+        "OBS.156810630",
+        "OBS.156530349",
+        "OBS.156530248",
+        "OBS.69899898",
+        "OBS.69898950",
+        "OBS.68723449",
+        "OBS.63626410",
+        "OBS.177939394",
+        "OBS.177867619",
+        "OBS.177469409",
+        "OBS.176836921",
+        "OBS.176836628",
+        "OBS.176600833",
+        "OBS.102400522",
+        "OBS.102389901",
+        "OBS.101911079"
+      ],
+      "id": [
+        "97880803@OBS",
+        "95580943@OBS",
+        "55964963@OBS",
+        "55935115@OBS",
+        "55922089@OBS",
+        "55914052@OBS",
+        "55085647@OBS",
+        "51962942@OBS",
+        "49546375@OBS",
+        "49257753@OBS",
+        "141009868@OBS",
+        "141009849@OBS",
+        "138650754@OBS",
+        "171982108@OBS",
+        "171945310@OBS",
+        "171912315@OBS",
+        "171809565@OBS",
+        "171450860@OBS",
+        "171450730@OBS",
+        "84927467@OBS",
+        "47721816@OBS",
+        "45990941@OBS",
+        "45831655@OBS",
+        "45783592@OBS",
+        "44457668@OBS",
+        "44202130@OBS",
+        "41047951@OBS",
+        "41047924@OBS",
+        "134523873@OBS",
+        "133398405@OBS",
+        "126674915@OBS",
+        "126582235@OBS",
+        "122344924@OBS",
+        "122086332@OBS",
+        "122027969@OBS",
+        "162059571@OBS",
+        "161937539@OBS",
+        "182093609@OBS",
+        "116351531@OBS",
+        "116351440@OBS",
+        "116351439@OBS",
+        "116348966@OBS",
+        "160767546@OBS",
+        "158329025@OBS",
+        "158216578@OBS",
+        "158085756@OBS",
+        "158068882@OBS",
+        "157714884@OBS",
+        "156866326@OBS",
+        "156866319@OBS",
+        "156810630@OBS",
+        "156530349@OBS",
+        "156530248@OBS",
+        "69899898@OBS",
+        "69898950@OBS",
+        "68723449@OBS",
+        "63626410@OBS",
+        "177939394@OBS",
+        "177867619@OBS",
+        "177469409@OBS",
+        "176836921@OBS",
+        "176836628@OBS",
+        "176600833@OBS",
+        "102400522@OBS",
+        "102389901@OBS",
+        "101911079@OBS"
+      ]
+    },
+    "timeline_ids": [
+      "97880803@OBS",
+      "95580943@OBS",
+      "55964963@OBS",
+      "55935115@OBS",
+      "55922089@OBS",
+      "55914052@OBS",
+      "55085647@OBS",
+      "51962942@OBS",
+      "49546375@OBS",
+      "49257753@OBS",
+      "141009868@OBS",
+      "141009849@OBS",
+      "138650754@OBS",
+      "171982108@OBS",
+      "171945310@OBS",
+      "171912315@OBS",
+      "171809565@OBS",
+      "171450860@OBS",
+      "171450730@OBS",
+      "84927467@OBS",
+      "47721816@OBS",
+      "45990941@OBS",
+      "45831655@OBS",
+      "45783592@OBS",
+      "44457668@OBS",
+      "44202130@OBS",
+      "41047951@OBS",
+      "41047924@OBS",
+      "134523873@OBS",
+      "133398405@OBS",
+      "126674915@OBS",
+      "126582235@OBS",
+      "122344924@OBS",
+      "122086332@OBS",
+      "122027969@OBS",
+      "162059571@OBS",
+      "161937539@OBS",
+      "182093609@OBS",
+      "116351531@OBS",
+      "116351440@OBS",
+      "116351439@OBS",
+      "116348966@OBS",
+      "160767546@OBS",
+      "158329025@OBS",
+      "158216578@OBS",
+      "158085756@OBS",
+      "158068882@OBS",
+      "157714884@OBS",
+      "156866326@OBS",
+      "156866319@OBS",
+      "156810630@OBS",
+      "156530349@OBS",
+      "156530248@OBS",
+      "69899898@OBS",
+      "69898950@OBS",
+      "68723449@OBS",
+      "63626410@OBS",
+      "177939394@OBS",
+      "177867619@OBS",
+      "177469409@OBS",
+      "176836921@OBS",
+      "176836628@OBS",
+      "176600833@OBS",
+      "102400522@OBS",
+      "102389901@OBS",
+      "101911079@OBS"
+    ],
+    "timeline_selected": "95580943@OBS",
+    "timeline_visible": [
+      "97880803@OBS",
+      "95580943@OBS",
+      "55964963@OBS",
+      "55935115@OBS",
+      "55922089@OBS",
+      "55914052@OBS",
+      "55085647@OBS",
+      "51962942@OBS",
+      "49546375@OBS",
+      "49257753@OBS",
+      "141009868@OBS",
+      "141009849@OBS",
+      "138650754@OBS",
+      "171982108@OBS",
+      "171945310@OBS",
+      "171912315@OBS",
+      "171809565@OBS",
+      "171450860@OBS",
+      "171450730@OBS",
+      "84927467@OBS",
+      "47721816@OBS",
+      "45990941@OBS",
+      "45831655@OBS",
+      "45783592@OBS",
+      "44457668@OBS",
+      "44202130@OBS",
+      "41047951@OBS",
+      "41047924@OBS",
+      "134523873@OBS",
+      "133398405@OBS",
+      "126674915@OBS",
+      "126582235@OBS",
+      "122344924@OBS",
+      "122086332@OBS",
+      "122027969@OBS",
+      "162059571@OBS",
+      "161937539@OBS",
+      "182093609@OBS",
+      "116351531@OBS",
+      "116351440@OBS",
+      "116351439@OBS",
+      "116348966@OBS",
+      "160767546@OBS",
+      "158329025@OBS",
+      "158216578@OBS",
+      "158085756@OBS",
+      "158068882@OBS",
+      "157714884@OBS",
+      "156866326@OBS",
+      "156866319@OBS",
+      "156810630@OBS",
+      "156530349@OBS",
+      "156530248@OBS",
+      "69899898@OBS",
+      "69898950@OBS",
+      "68723449@OBS",
+      "63626410@OBS",
+      "177939394@OBS",
+      "177867619@OBS",
+      "177469409@OBS",
+      "176836921@OBS",
+      "176836628@OBS",
+      "176600833@OBS",
+      "102400522@OBS",
+      "102389901@OBS",
+      "101911079@OBS"
+    ],
+    "timeline_window": [
+      "2007-08-21T11:38:57.618Z",
+      "2020-04-29T15:16:43.780Z"
+    ]
+  },
+  "output": {
+    "bioLeafMap": {
+      "x": {
+        "options": {
+          "crs": {
+            "crsClass": "L.CRS.EPSG3857",
+            "code": null,
+            "proj4def": null,
+            "projectedBounds": null,
+            "options": {
+
+            }
+          },
+          "fullscreenControl": {
+            "position": "topleft",
+            "pseudoFullscreen": false
+          }
+        },
+        "calls": [
+          {
+            "method": "addTiles",
+            "args": [
+              "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+              null,
+              null,
+              {
+                "minZoom": 0,
+                "maxZoom": 18,
+                "tileSize": 256,
+                "subdomains": "abc",
+                "errorTileUrl": "",
+                "tms": false,
+                "noWrap": false,
+                "zoomOffset": 0,
+                "zoomReverse": false,
+                "opacity": 1,
+                "zIndex": 1,
+                "detectRetina": false,
+                "attribution": "&copy; <a href=\"https://openstreetmap.org/copyright/\">OpenStreetMap<\/a>,  <a href=\"https://opendatacommons.org/licenses/odbl/\">ODbL<\/a>"
+              }
+            ]
+          },
+          {
+            "method": "addScaleBar",
+            "args": [
+              {
+                "maxWidth": 100,
+                "metric": true,
+                "imperial": true,
+                "updateWhenIdle": true,
+                "position": "bottomleft"
+              }
+            ]
+          },
+          {
+            "method": "addLayersControl",
+            "args": [
+              [
+
+              ],
+              [
+
+              ],
+              {
+                "collapsed": true,
+                "autoZIndex": true,
+                "position": "topleft"
+              }
+            ]
+          }
+        ],
+        "setView": [
+          [
+            53.15163,
+            15.99289
+          ],
+          6,
+          [
+
+          ]
+        ]
+      },
+      "evals": [
+
+      ],
+      "jsHooks": [
+
+      ],
+      "deps": [
+        {
+          "name": "jquery",
+          "version": "3.6.0",
+          "src": {
+            "href": "jquery-3.6.0"
+          },
+          "meta": null,
+          "script": "jquery-3.6.0.min.js",
+          "stylesheet": null,
+          "head": null,
+          "attachment": null,
+          "all_files": true
+        },
+        {
+          "name": "leaflet",
+          "version": "1.3.1",
+          "src": {
+            "href": "leaflet-1.3.1"
+          },
+          "meta": null,
+          "script": "leaflet.js",
+          "stylesheet": "leaflet.css",
+          "head": null,
+          "attachment": null,
+          "all_files": true
+        },
+        {
+          "name": "leafletfix",
+          "version": "1.0.0",
+          "src": {
+            "href": "leafletfix-1.0.0"
+          },
+          "meta": null,
+          "script": null,
+          "stylesheet": "leafletfix.css",
+          "head": null,
+          "attachment": null,
+          "all_files": true
+        },
+        {
+          "name": "proj4",
+          "version": "2.6.2",
+          "src": {
+            "href": "proj4-2.6.2"
+          },
+          "meta": null,
+          "script": "proj4.min.js",
+          "stylesheet": null,
+          "head": null,
+          "attachment": null,
+          "all_files": false
+        },
+        {
+          "name": "Proj4Leaflet",
+          "version": "1.0.1",
+          "src": {
+            "href": "Proj4Leaflet-1.0.1"
+          },
+          "meta": null,
+          "script": "proj4leaflet.js",
+          "stylesheet": null,
+          "head": null,
+          "attachment": null,
+          "all_files": false
+        },
+        {
+          "name": "rstudio_leaflet",
+          "version": "1.3.1",
+          "src": {
+            "href": "rstudio_leaflet-1.3.1"
+          },
+          "meta": null,
+          "script": null,
+          "stylesheet": "rstudio_leaflet.css",
+          "head": null,
+          "attachment": null,
+          "all_files": true
+        },
+        {
+          "name": "leaflet-binding",
+          "version": "2.2.1",
+          "src": {
+            "href": "leaflet-binding-2.2.1"
+          },
+          "meta": null,
+          "script": "leaflet.js",
+          "stylesheet": null,
+          "head": null,
+          "attachment": null,
+          "all_files": false
+        },
+        {
+          "name": "lfx-fullscreen",
+          "version": "1.0.2",
+          "src": {
+            "href": "lfx-fullscreen-1.0.2"
+          },
+          "meta": null,
+          "script": "lfx-fullscreen-prod.js",
+          "stylesheet": "lfx-fullscreen-prod.css",
+          "head": null,
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        }
+      ]
+    },
+    "selectedData": "<table  class = 'table shiny-table table-striped table-bordered spacing-xs' style = 'width:100%;'>\n  <tr> <td> Scientific Name <\/td> <td> Canis lupus <\/td> <\/tr>\n  <tr> <td> Vernacular Name <\/td> <td> Wolf <\/td> <\/tr>\n  <tr> <td> Family <\/td> <td> Dogs Canidae <\/td> <\/tr>\n  <tr> <td> Kingdom <\/td> <td> Animalia <\/td> <\/tr>\n  <tr> <td> Registers <\/td> <td> 66 <\/td> <\/tr>\n  <tr> <td> Observations <\/td> <td> 103 <\/td> <\/tr>\n   <\/table>",
+    "timeline": {
+      "x": {
+        "items": [
+          {
+            "start": "2015-02-03",
+            "content": "OBS.97880803",
+            "id": "97880803@OBS"
+          },
+          {
+            "start": "2009-07-28",
+            "content": "OBS.95580943",
+            "id": "95580943@OBS"
+          },
+          {
+            "start": "2011-07-27",
+            "content": "OBS.55964963",
+            "id": "55964963@OBS"
+          },
+          {
+            "start": "2011-07-27",
+            "content": "OBS.55935115",
+            "id": "55935115@OBS"
+          },
+          {
+            "start": "2011-07-27",
+            "content": "OBS.55922089",
+            "id": "55922089@OBS"
+          },
+          {
+            "start": "2011-07-27",
+            "content": "OBS.55914052",
+            "id": "55914052@OBS"
+          },
+          {
+            "start": "2011-06-08",
+            "content": "OBS.55085647",
+            "id": "55085647@OBS"
+          },
+          {
+            "start": "2009-07-28",
+            "content": "OBS.51962942",
+            "id": "51962942@OBS"
+          },
+          {
+            "start": "2010-05-07",
+            "content": "OBS.49546375",
+            "id": "49546375@OBS"
+          },
+          {
+            "start": "2010-07-26",
+            "content": "OBS.49257753",
+            "id": "49257753@OBS"
+          },
+          {
+            "start": "2017-06-30",
+            "content": "OBS.141009868",
+            "id": "141009868@OBS"
+          },
+          {
+            "start": "2017-06-30",
+            "content": "OBS.141009849",
+            "id": "141009849@OBS"
+          },
+          {
+            "start": "2016-07-27",
+            "content": "OBS.138650754",
+            "id": "138650754@OBS"
+          },
+          {
+            "start": "2019-05-08",
+            "content": "OBS.171982108",
+            "id": "171982108@OBS"
+          },
+          {
+            "start": "2019-05-08",
+            "content": "OBS.171945310",
+            "id": "171945310@OBS"
+          },
+          {
+            "start": "2019-05-08",
+            "content": "OBS.171912315",
+            "id": "171912315@OBS"
+          },
+          {
+            "start": "2019-05-07",
+            "content": "OBS.171809565",
+            "id": "171809565@OBS"
+          },
+          {
+            "start": "2019-04-15",
+            "content": "OBS.171450860",
+            "id": "171450860@OBS"
+          },
+          {
+            "start": "2019-04-14",
+            "content": "OBS.171450730",
+            "id": "171450730@OBS"
+          },
+          {
+            "start": "2014-05-23",
+            "content": "OBS.84927467",
+            "id": "84927467@OBS"
+          },
+          {
+            "start": "2010-05-02",
+            "content": "OBS.47721816",
+            "id": "47721816@OBS"
+          },
+          {
+            "start": "2008-04-27",
+            "content": "OBS.45990941",
+            "id": "45990941@OBS"
+          },
+          {
+            "start": "2009-07-28",
+            "content": "OBS.45831655",
+            "id": "45831655@OBS"
+          },
+          {
+            "start": "2008-04-27",
+            "content": "OBS.45783592",
+            "id": "45783592@OBS"
+          },
+          {
+            "start": "2009-05-11",
+            "content": "OBS.44457668",
+            "id": "44457668@OBS"
+          },
+          {
+            "start": "2009-07-28",
+            "content": "OBS.44202130",
+            "id": "44202130@OBS"
+          },
+          {
+            "start": "2008-11-16",
+            "content": "OBS.41047951",
+            "id": "41047951@OBS"
+          },
+          {
+            "start": "2008-11-16",
+            "content": "OBS.41047924",
+            "id": "41047924@OBS"
+          },
+          {
+            "start": "2017-02-10",
+            "content": "OBS.134523873",
+            "id": "134523873@OBS"
+          },
+          {
+            "start": "2017-01-05",
+            "content": "OBS.133398405",
+            "id": "133398405@OBS"
+          },
+          {
+            "start": "2015-05-07",
+            "content": "OBS.126674915",
+            "id": "126674915@OBS"
+          },
+          {
+            "start": "2016-05-16",
+            "content": "OBS.126582235",
+            "id": "126582235@OBS"
+          },
+          {
+            "start": "2016-07-27",
+            "content": "OBS.122344924",
+            "id": "122344924@OBS"
+          },
+          {
+            "start": "2016-07-27",
+            "content": "OBS.122086332",
+            "id": "122086332@OBS"
+          },
+          {
+            "start": "2016-07-27",
+            "content": "OBS.122027969",
+            "id": "122027969@OBS"
+          },
+          {
+            "start": "2018-08-30",
+            "content": "OBS.162059571",
+            "id": "162059571@OBS"
+          },
+          {
+            "start": "2018-08-30",
+            "content": "OBS.161937539",
+            "id": "161937539@OBS"
+          },
+          {
+            "start": "2013-07-18",
+            "content": "OBS.182093609",
+            "id": "182093609@OBS"
+          },
+          {
+            "start": "2016-03-31",
+            "content": "OBS.116351531",
+            "id": "116351531@OBS"
+          },
+          {
+            "start": "2016-04-01",
+            "content": "OBS.116351440",
+            "id": "116351440@OBS"
+          },
+          {
+            "start": "2016-04-01",
+            "content": "OBS.116351439",
+            "id": "116351439@OBS"
+          },
+          {
+            "start": "2016-03-27",
+            "content": "OBS.116348966",
+            "id": "116348966@OBS"
+          },
+          {
+            "start": "2018-07-31",
+            "content": "OBS.160767546",
+            "id": "160767546@OBS"
+          },
+          {
+            "start": "2018-06-09",
+            "content": "OBS.158329025",
+            "id": "158329025@OBS"
+          },
+          {
+            "start": "2018-06-08",
+            "content": "OBS.158216578",
+            "id": "158216578@OBS"
+          },
+          {
+            "start": "2018-06-08",
+            "content": "OBS.158085756",
+            "id": "158085756@OBS"
+          },
+          {
+            "start": "2018-05-26",
+            "content": "OBS.158068882",
+            "id": "158068882@OBS"
+          },
+          {
+            "start": "2018-05-29",
+            "content": "OBS.157714884",
+            "id": "157714884@OBS"
+          },
+          {
+            "start": "2018-05-08",
+            "content": "OBS.156866326",
+            "id": "156866326@OBS"
+          },
+          {
+            "start": "2018-05-08",
+            "content": "OBS.156866319",
+            "id": "156866319@OBS"
+          },
+          {
+            "start": "2018-05-10",
+            "content": "OBS.156810630",
+            "id": "156810630@OBS"
+          },
+          {
+            "start": "2018-05-05",
+            "content": "OBS.156530349",
+            "id": "156530349@OBS"
+          },
+          {
+            "start": "2018-05-09",
+            "content": "OBS.156530248",
+            "id": "156530248@OBS"
+          },
+          {
+            "start": "2012-07-14",
+            "content": "OBS.69899898",
+            "id": "69899898@OBS"
+          },
+          {
+            "start": "2012-07-14",
+            "content": "OBS.69898950",
+            "id": "69898950@OBS"
+          },
+          {
+            "start": "2012-05-20",
+            "content": "OBS.68723449",
+            "id": "68723449@OBS"
+          },
+          {
+            "start": "2012-03-08",
+            "content": "OBS.63626410",
+            "id": "63626410@OBS"
+          },
+          {
+            "start": "2019-08-09",
+            "content": "OBS.177939394",
+            "id": "177939394@OBS"
+          },
+          {
+            "start": "2019-05-22",
+            "content": "OBS.177867619",
+            "id": "177867619@OBS"
+          },
+          {
+            "start": "2019-07-23",
+            "content": "OBS.177469409",
+            "id": "177469409@OBS"
+          },
+          {
+            "start": "2019-07-21",
+            "content": "OBS.176836921",
+            "id": "176836921@OBS"
+          },
+          {
+            "start": "2019-07-23",
+            "content": "OBS.176836628",
+            "id": "176836628@OBS"
+          },
+          {
+            "start": "2019-07-19",
+            "content": "OBS.176600833",
+            "id": "176600833@OBS"
+          },
+          {
+            "start": "2015-05-13",
+            "content": "OBS.102400522",
+            "id": "102400522@OBS"
+          },
+          {
+            "start": "2015-05-13",
+            "content": "OBS.102389901",
+            "id": "102389901@OBS"
+          },
+          {
+            "start": "2015-05-07",
+            "content": "OBS.101911079",
+            "id": "101911079@OBS"
+          }
+        ],
+        "groups": null,
+        "showZoom": true,
+        "zoomFactor": 0.5,
+        "fit": true,
+        "options": {
+          "editable": false,
+          "height": "123px",
+          "locale": "en"
+        },
+        "height": null,
+        "timezone": null,
+        "api": [
+
+        ]
+      },
+      "evals": [
+
+      ],
+      "jsHooks": [
+
+      ],
+      "deps": [
+        {
+          "name": "jquery",
+          "version": "3.6.0",
+          "src": {
+            "href": "jquery-3.6.0"
+          },
+          "meta": null,
+          "script": "jquery-3.6.0.min.js",
+          "stylesheet": null,
+          "head": null,
+          "attachment": null,
+          "all_files": true
+        },
+        {
+          "name": "bootstrap",
+          "version": "3.3.5",
+          "src": {
+            "href": "bootstrap-3.3.5"
+          },
+          "meta": {
+            "viewport": "width=device-width, initial-scale=1"
+          },
+          "script": [
+            "js/bootstrap.min.js",
+            "shim/html5shiv.min.js",
+            "shim/respond.min.js"
+          ],
+          "stylesheet": "css/bootstrap.min.css",
+          "head": "<style>h1 {font-size: 34px;}\n       h1.title {font-size: 38px;}\n       h2 {font-size: 30px;}\n       h3 {font-size: 24px;}\n       h4 {font-size: 18px;}\n       h5 {font-size: 16px;}\n       h6 {font-size: 12px;}\n       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}\n       pre:not([class]) { background-color: white }<\/style>",
+          "attachment": null,
+          "package": null,
+          "all_files": true
+        }
+      ]
+    },
+    "user": {
+      "html": "<head>\n  <script>$(function() {\n          $('.dashboard-user').on('click', function(e){\n            e.stopPropagation();\n          });\n        });\n        <\/script>\n<\/head>\n<a href=\"#\" class=\"nav-link dropdown-toggle\" data-toggle=\"dropdown\" aria-expanded=\"false\">\n  <img src=\"https://www.gbif.org/img/full_logo_white.svg\" class=\"user-image img-circle elevation-2\" alt=\"User Image\"/>\n  <span class=\"d-none d-md-inline\">Biodiversity Dashboard<\/span>\n<\/a>\n<ul class=\"dropdown-menu dropdown-menu-lg dropdown-menu-right dashboard-user\">\n  <li class=\"user-header\">\n    <img src=\"https://www.gbif.org/img/full_logo_white.svg\" class=\"img-circle elevation-2\" alt=\"User Image\"/>\n    <p>\n      <small>Author - Mahesh Kulkarni<\/small>\n    <\/p>\n  <\/li>\n<\/ul>",
+      "deps": [
+
+      ]
+    }
+  },
+  "export": {
+
+  }
+}
