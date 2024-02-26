@@ -14,106 +14,62 @@ function (input, output, session) {
     )
   })
   
-  
-  # source("C:/Users/kmahe/OneDrive/Biodiversity-Dashboard/Calculation/map_calculation.R")
-  # source("C:/Users/kmahe/OneDrive/Biodiversity-Dashboard/Calculation/Timeline.R")
-  
-  # data <- mapServer("map")
-  # timelineServer("timeline", data)
-  
   # Get data for the selected species
-  data <- reactive({
+  bidata <- reactive({
     biodiversityDT |>
-      dplyr::filter(!!as.symbol(input$filterVar) == input$searchSpecies)
+      filter(!!as.symbol(input$filterData) == input$filterSpecies)
   })
   
   
-  # Create list with species according to filterVar
+  # Create list with species according to filterData
   choices <- reactive({
-    req(input$filterVar)
-    split(biodiversityDT[[input$filterVar]], biodiversityDT$kingdom) |>
+    req(input$filterData)
+    split(biodiversityDT[[input$filterData]], biodiversityDT$kingdom) |>
       lapply(X = _, FUN = \(x) sort(unique(x)))
   })
   
   
-  # Use server-side selectizeInput and update choices according to filterVar
+  # Use server-side selectizeInput and update choices according to filterData
   observe({
-    req(input$filterVar)
-    default <- ifelse(input$filterVar == "scientificName", "Small Chocolate-tip", "Clostera pigra")
-    updateSelectizeInput(session, 'searchSpecies', choices = choices(),
+    req(input$filterData)
+    default <- ifelse(input$filterData == "scientificName", "Canis lupus", "Wolf")
+    updateSelectizeInput(session, 'filterSpecies', choices = choices(),
                          server = TRUE, selected = default)
   })
   
   # Render map for the first time
   
-  # addMultipleProviderTiles <- function(map, provider, group = names(provider)) {
-  #   for (i in seq_along(provider)) {
-  #     map <- leaflet::addProviderTiles(map, provider[[i]], group = group[[i]])
-  #   }
-  #   return(map)
-  # }
-  
-  addMultipleProviderTiles <- function(map, providers, groups = NULL) {
-    if (is.null(groups)) {
-      for (provider in providers) {
-        map <- leaflet::addTiles(map, provider)
-      }
-    } else {
-      for (i in seq_along(providers)) {
-        map <- leaflet::addTiles(map, providers[[i]], group = groups[i])
-      }
-    }
-    return(map)
-  }
-  
-  output$leafMap <- leaflet::renderLeaflet({
+  output$bioLeafMap <- renderLeaflet({
     
-    # tiles <- c("Esri World Topo Map" = "Esri.WorldTopoMap", "Esri World Imagery" = "Esri.WorldImagery",
-    #            "Esri World Street Map" = "Esri.WorldStreetMap", "Esri DeLorme" = "Esri.DeLorme",
-    #            "OpenTopoMap" = "OpenTopoMap",
-    #            "Stamen Terrain" = "Stamen.Terrain")
-    
-    tiles <- list(
-      "Esri World Topo Map" = leaflet::providers$OpenStreetMap,
-      "Esri NatGeoWorldMap" = leaflet::providers$Esri.NatGeoWorldMap,
-      "OpenStreetMap" = leaflet::providers$OpenStreetMap.Mapnik
-      # "Stamen.Toner" = providers$Stamen.Toner
-      # "Stamen Terrain" = leaflet::providers$Stamen.Terrain
-    )
-    
-    leaflet::leaflet() |>
+    leaflet() |>
       addTiles() |>
-      leaflet::setView(lng = 15.99289, lat = 53.15163, zoom = 6) |>
-      leaflet.extras::addFullscreenControl() |>
-      leaflet::addScaleBar(position = "bottomleft") |>
-      leaflet::addLayersControl(
-        baseGroups = names(tiles),
+      setView(lng = 15.99289, lat = 53.15163, zoom = 6) |>
+      addFullscreenControl() |>
+      addScaleBar(position = "bottomleft") |>
+      addLayersControl(
         position = "topleft",
-        options = leaflet::layersControlOptions(collapsed = TRUE))
-    
+        options = layersControlOptions(collapsed = TRUE))
     
   })
   
   observe({
     
-    df <- data()
+    bidf <- bidata()
     
-    if (nrow(df) == 0) return()
+    if (nrow(bidf) == 0) return()
     
-    mapData <- createPopupData(df)
+    bimapData <- mapPopupData(bidf)
     
-    print(mapData)
-    
-    leaflet::leafletProxy("leafMap", data = mapData) |>
-      leaflet::clearPopups() |>
-      leaflet::clearMarkerClusters() |>
-      leaflet::setView(lng = 15.99289, lat = 53.15163, zoom = 6) |>
-      leaflet::addCircleMarkers(
+    leafletProxy("bioLeafMap", data = bimapData) |>
+    clearPopups() |>
+    clearMarkerClusters() |>
+    setView(lng = 15.99289, lat = 53.15163, zoom = 6) |>
+    addCircleMarkers(
         label = ~lapply(label, HTML),
-        labelOptions = leaflet::labelOptions(className = "leaflet_hover_pop"),
+        labelOptions = labelOptions(className = "leaflet_hover_pop"),
         popup = ~lapply(label, HTML),
         lng = ~longitudeDecimal, lat = ~latitudeDecimal,
-        clusterOptions = leaflet::markerClusterOptions()
+        clusterOptions = markerClusterOptions()
       )
     
   })
@@ -122,18 +78,18 @@ function (input, output, session) {
   output$selectedData <- renderTable(colnames = FALSE, width = "100%",
                                      striped = TRUE, spacing = "xs", bordered = TRUE, {
                                        
-                                       req(data)
+                                       req(bidata)
                                        
-                                       createInfoTable(data())
+                                       BiDTable(bidata())
                                        
                                      })
   
-  output$timeline <- timevis::renderTimevis({
-    timeline_data <- data() |>
-      dplyr::mutate(start = eventDate, content = catalogNumber, id = id) |>
-      dplyr::select(start, content, id)
+  output$timeline <- renderTimevis({
+    timeline_data <- bidata() |>
+      mutate(start = eventDate, content = catalogNumber, id = id) |>
+      select(start, content, id)
     
-    timevis::timevis(timeline_data, fit = TRUE,
+    timevis(timeline_data, fit = TRUE,
                      options = list(editable = FALSE,
                                     height = "123px",
                                     locale = "en")
