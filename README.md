@@ -6,7 +6,7 @@
 
 <div align="left">
 
-### Data about Polish biodiversity is displayed in this Shiny app. [Here's where the app is now live!](https://75ns70-mahesh-kulkarni.shinyapps.io/Biodiversity-Dashboard/)
+### Data about Polish biodiversity is displayed in this [live Shiny app!](https://75ns70-mahesh-kulkarni.shinyapps.io/Biodiversity-Dashboard/)
 ##
 
 ## Data - 
