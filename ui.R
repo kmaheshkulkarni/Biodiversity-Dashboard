@@ -37,4 +37,4 @@ bs4DashPage(
   htmltools::includeCSS(path = "www/styles.css")
 )
 
-)
+) 

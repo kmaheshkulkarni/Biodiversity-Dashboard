@@ -15,4 +15,4 @@ library(stringr)        # String manipulation
 useShinyjs()
 
 # Load leaflet package last for potential conflicts with other libraries
-library(leaflet)        # Interactive maps
+library(leaflet)        # Interactive maps 

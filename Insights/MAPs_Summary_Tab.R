@@ -20,7 +20,7 @@ MAPs_Summary_Tab <- tabPanel(
 
            )
   ),
-  
+   
   fluidRow(
   timevisOutput("timeline", width = "100%", height = "100%")
   )

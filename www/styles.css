@@ -256,7 +256,7 @@ table.dataTable thead th, table.dataTable thead td {
 .brand-text, .nav-link p, .user-panel .info {
     transition: margin-left .3s linear,opacity .3s ease,visibility .3s ease;
 }
-
+ 
 .vis-panel {
     margin-top: 10px;
 }

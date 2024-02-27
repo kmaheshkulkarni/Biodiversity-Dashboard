@@ -1,5 +1,5 @@
 library(shinytest2)
-
+ 
 test_that("{shinytest2} recording: Biodiversity-Dashboard", {
   app <- AppDriver$new(variant = platform_variant(), name = "Biodiversity-Dashboard", 
       height = 730, width = 1235)

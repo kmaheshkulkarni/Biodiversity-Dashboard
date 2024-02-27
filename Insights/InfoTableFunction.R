@@ -14,7 +14,7 @@ BiDTable <- function(DataSpecies) {
       sum(SpeciesDT$individualCount, na.rm = TRUE)
     )
   )
-}
+} 
 
 
 mapPopupData <- function(DataSpecies) {
