@@ -6,6 +6,16 @@
 
 <div align="left">
 
+<!-- badges: start -->
+[![Project Status: WIP – Initial development is in progress, but there
+has not yet been a stable, usable release suitable for the
+public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip)
+[![CRAN status](https://www.r-pkg.org/badges/version/corrly)](https://CRAN.R-project.org/package=corrly)
+[![](https://img.shields.io/badge/Shiny-shinyapps.io-blue?style=flat&labelColor=white&logo=RStudio&logoColor=blue)](http://75ns70-mahesh-kulkarni.shinyapps.io/Biodiversity-Dashboard)
+![Static Badge](https://img.shields.io/badge/Biodiversity-DATA?style=flat&label=R%20Shiny&labelColor=%2300E47C&color=%2308312A&link=https%3A%2F%2Fgithub.com%2Fkmaheshkulkarni%2FBiodiversity-Dashboard)
+![Static Badge](https://img.shields.io/badge/Version%201-0?style=flat&label=Biodiversity-Dashboard&labelColor=%23E18600&color=%2308312A&link=https%3A%2F%2Fgithub.com%2Fkmaheshkulkarni%2FBiodiversity-Dashboard)
+<!-- badges: end -->
+
 ### Data about Polish biodiversity is displayed in this [live Shiny app!](https://75ns70-mahesh-kulkarni.shinyapps.io/Biodiversity-Dashboard/)
 ##
 
