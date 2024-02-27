@@ -1,5 +1,5 @@
 
-source("packages.R")
-source("DataConnect.R")
-source("MAPs_Summary_Tab.R")
-source("InfoTableFunction.R")
+source("Insights/packages.R")
+source("Insights/DataConnect.R")
+source("Insights/MAPs_Summary_Tab.R")
+source("Insights/InfoTableFunction.R")
